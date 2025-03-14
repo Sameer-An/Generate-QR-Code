@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 75vmin;
+    background-color: rgb(183, 228, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgba(47, 144, 235, 0.737);
+    width: 85vmin;
+    min-height: 35vmin;
+    border-radius: 10px;
+    box-shadow: 6px 4px 8px rgba(255, 255, 255, 0.195);
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    box-shadow: 3px 3px 8px inset rgb(0, 0, 0);
+}
+.input-class{
+    width: 80%;
+    /* background-color: red; */
+    margin: 30px;
+}
+#input-Id {
+    width: 100%;
+    height: 9vmin;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px ;
+    box-shadow: 3px 5px 8px inset rgb(126, 126, 126);
+    font-size: 2.3vmin;
+}
+#Gen-btn{
+    width: 80%;
+    height: 5.5vmin;
+    border: none;
+    border-radius: 5px ;
+    box-shadow: 1px 1px 8px inset rgba(10, 10, 10, 0.441);
+    background-color: rgba(34, 52, 77, 0.995);
+    color: aliceblue;
+    font-weight: bolder;
+    margin-top: 2.3vmin;
+    font-size: 2.3vmin;
+}
+
+#Gen-btn:hover{
+background-color: rgb(25, 88, 177);
+}
+
+.Image-Gen{
+    display: none;
+}
+
+.Img{
+    width: 47%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
